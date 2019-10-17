@@ -1,0 +1,14 @@
+/Users/michukanyto/Projects/StudentTV2/StudentTV2/bin/iPhoneSimulator/Debug/StudentTV2.exe
+/Users/michukanyto/Projects/StudentTV2/StudentTV2/bin/iPhoneSimulator/Debug/StudentTV2.pdb
+/Users/michukanyto/Projects/StudentTV2/StudentTV2/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
+/Users/michukanyto/Projects/StudentTV2/StudentTV2/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
+/Users/michukanyto/Projects/StudentTV2/StudentTV2/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.1/ibtool/_BundleResourceWithLogicalName.items
+/Users/michukanyto/Projects/StudentTV2/StudentTV2/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.1/actool/_PartialAppManifest.items
+/Users/michukanyto/Projects/StudentTV2/StudentTV2/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.1/actool/_BundleResourceWithLogicalName.items
+/Users/michukanyto/Projects/StudentTV2/StudentTV2/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.1/coremlc/_PartialAppManifest.items
+/Users/michukanyto/Projects/StudentTV2/StudentTV2/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.1/coremlc/_BundleResourceWithLogicalName.items
+/Users/michukanyto/Projects/StudentTV2/StudentTV2/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.1/optimized/
+/Users/michukanyto/Projects/StudentTV2/StudentTV2/obj/iPhoneSimulator/Debug/StudentTV2.csprojAssemblyReference.cache
+/Users/michukanyto/Projects/StudentTV2/StudentTV2/obj/iPhoneSimulator/Debug/StudentTV2.csproj.CopyComplete
+/Users/michukanyto/Projects/StudentTV2/StudentTV2/obj/iPhoneSimulator/Debug/StudentTV2.exe
+/Users/michukanyto/Projects/StudentTV2/StudentTV2/obj/iPhoneSimulator/Debug/StudentTV2.pdb

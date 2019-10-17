@@ -1,0 +1,27 @@
+--cache=/Users/michukanyto/Projects/StudentTV2/StudentTV2/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.1/mtouch-cache
+--sim=/Users/michukanyto/Projects/StudentTV2/StudentTV2/bin/iPhoneSimulator/Debug/device-builds/iphone12.5-13.1/StudentTV2.app
+--executable=StudentTV2
+ --debug
+ --sgen-conc
+ --nolink
+--sdkroot=/Applications/Xcode.app/Contents/Developer
+--sdk=13.1
+--targetver=9.1
+ --aot-options=-O=-float32
+ --http-message-handler=NSUrlSessionHandler
+ --abi=x86_64
+--symbollist=/Users/michukanyto/Projects/StudentTV2/StudentTV2/obj/iPhoneSimulator/Debug/device-builds/iphone12.5-13.1/mtouch-symbols.list
+ --dsym=no
+-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
+-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/OpenTK-1.0.dll
+-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
+-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
+-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Drawing.Common.dll
+-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Numerics.dll
+-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Numerics.Vectors.dll
+-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll
+-r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll
+-r=/Users/michukanyto/.nuget/packages/xamarin.essentials/1.2.0/lib/xamarinios10/Xamarin.Essentials.dll
+ --target-framework=Xamarin.iOS,v1.0
+--root-assembly=/Users/michukanyto/Projects/StudentTV2/StudentTV2/bin/iPhoneSimulator/Debug/StudentTV2.exe
+ 

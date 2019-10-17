@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{373B21D2-42A1-46D8-92EF-1C3517906F0E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StudentTV2/TableViewCell.cs">
+    <Files>
+      <File FileName="StudentTV2/ViewController.cs" Line="35" Column="39" />
+      <File FileName="StudentTV2/Student.cs" Line="48" Column="1" />
+      <File FileName="StudentTV2/Main.storyboard" />
+      <File FileName="StudentTV2/TableViewSource.cs" Line="10" Column="40" />
+      <File FileName="StudentTV2/TableViewCell.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="StudentTV2" expanded="True">
+            <Node name="StudentTV2" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.ItemProperties.StudentTV2 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.EAD1D003-1FEB-4488-8EDA-8CD21CF09E11" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

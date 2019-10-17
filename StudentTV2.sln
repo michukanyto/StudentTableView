@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentTV2", "StudentTV2\StudentTV2.csproj", "{373B21D2-42A1-46D8-92EF-1C3517906F0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{373B21D2-42A1-46D8-92EF-1C3517906F0E}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{373B21D2-42A1-46D8-92EF-1C3517906F0E}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{373B21D2-42A1-46D8-92EF-1C3517906F0E}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{373B21D2-42A1-46D8-92EF-1C3517906F0E}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{373B21D2-42A1-46D8-92EF-1C3517906F0E}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{373B21D2-42A1-46D8-92EF-1C3517906F0E}.Debug|iPhone.Build.0 = Debug|iPhone
+		{373B21D2-42A1-46D8-92EF-1C3517906F0E}.Release|iPhone.ActiveCfg = Release|iPhone
+		{373B21D2-42A1-46D8-92EF-1C3517906F0E}.Release|iPhone.Build.0 = Release|iPhone
+	EndGlobalSection
+EndGlobal

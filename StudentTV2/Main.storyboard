@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="393" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="20" y="23" width="374" height="693"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="394" reuseIdentifier="cell_id" rowHeight="106" customClass="TableViewCell">
+                                        <rect key="frame" x="0.0" y="28" width="374" height="106"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="394" id="395">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="106"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="401" translatesAutoresizingMaskIntoConstraints="NO" text="Label" misplaced="YES" ambiguous="YES">
+                                                    <rect key="frame" x="15" y="11" width="209" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12" weight="heavy"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="402" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES" ambiguous="YES">
+                                                    <rect key="frame" x="15" y="52" width="102" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11" weight="black"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="403" translatesAutoresizingMaskIntoConstraints="NO" text="Label" misplaced="YES" ambiguous="YES">
+                                                    <rect key="frame" x="317" y="11" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="404" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES" ambiguous="YES">
+                                                    <rect key="frame" x="199" y="68" width="160" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint id="621" firstItem="401" firstAttribute="leading" secondItem="395" secondAttribute="leading" constant="15"/>
+                                                <constraint id="622" firstItem="401" firstAttribute="top" secondItem="395" secondAttribute="top" constant="11"/>
+                                                <constraint id="623" firstItem="403" firstAttribute="top" secondItem="395" secondAttribute="top" constant="11"/>
+                                                <constraint id="624" firstAttribute="trailing" secondItem="403" secondAttribute="trailing" constant="15"/>
+                                                <constraint id="625" firstItem="403" firstAttribute="leading" secondItem="401" secondAttribute="trailing" constant="93"/>
+                                                <constraint id="626" firstItem="402" firstAttribute="leading" secondItem="395" secondAttribute="leading" constant="15"/>
+                                                <constraint id="627" firstItem="402" firstAttribute="top" secondItem="401" secondAttribute="bottom" constant="20"/>
+                                                <constraint id="628" firstAttribute="bottom" secondItem="402" secondAttribute="bottom" constant="27"/>
+                                                <constraint id="629" firstItem="404" firstAttribute="top" secondItem="403" secondAttribute="bottom" constant="36"/>
+                                                <constraint id="630" firstAttribute="bottom" secondItem="404" secondAttribute="bottom" constant="11"/>
+                                                <constraint id="631" firstItem="404" firstAttribute="leading" secondItem="402" secondAttribute="trailing" constant="82"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="_studentName" destination="401" id="name-outlet-401"/>
+                                            <outlet property="_studentId" destination="402" id="name-outlet-402"/>
+                                            <outlet property="_studentAge" destination="403" id="name-outlet-403"/>
+                                            <outlet property="_studentCourse" destination="404" id="name-outlet-404"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <constraints>
+                            <constraint id="870" firstItem="393" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="3"/>
+                            <constraint id="871" firstItem="393" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin"/>
+                            <constraint id="872" firstItem="393" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin"/>
+                            <constraint id="873" firstAttribute="bottom" secondItem="393" secondAttribute="bottom" constant="20"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="StudentTable" destination="393" id="name-outlet-393"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+</document>
